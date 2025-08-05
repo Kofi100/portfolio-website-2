@@ -24,15 +24,16 @@ export default function CardProjects({
 				</section>
 			</section>
 
-			<img
-				src={imgSrc || "/images/icons/image-square-xmark-svgrepo-com.svg"}
-				alt={name}
-				className="h-[20rem] aspect-[4/3] rounded-2xl"
-				// onError={(e) => {
-				// 	e.currentTarget.src = "/images/icons/image-svgrepo-com.svg";
-				// }}
-			/>
-
+			<a href={link}>
+				<img
+					src={imgSrc || "/images/icons/image-square-xmark-svgrepo-com.svg"}
+					alt={name}
+					className="h-[20rem] aspect-[4/3] rounded-2xl"
+					// onError={(e) => {
+					// 	e.currentTarget.src = "/images/icons/image-svgrepo-com.svg";
+					// }}
+				/>
+			</a>
 			{/* screenshot */}
 			<p className="p-5">{description}</p>
 			{/* {link && (

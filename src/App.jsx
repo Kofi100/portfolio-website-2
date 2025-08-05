@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 import "./App.css";
@@ -18,8 +18,12 @@ function App() {
 					<a href="#about" className="hover:text-blue-500 underline">
 						About
 					</a>
-					<a href="#projects">Projects</a>
-					<a href="#about">Contact</a>
+					<a href="#projects" className="hover:text-blue-500 underline">
+						Projects
+					</a>
+					<a href="#contact" className="hover:text-blue-500 underline">
+						Contact
+					</a>
 					{/* <a href="#about">About</a> */}
 				</nav>
 			</header>
@@ -140,7 +144,7 @@ function App() {
 					</section>
 				</section>
 			</main>
-			<footer className="bg-blue-500/90 text-white ">
+			<footer className="bg-blue-500/90 text-white p-5 pb-0 ">
 				<div class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-2 gap-6 text-center sm:text-left">
 					<div className="w-full">
 						<h3 class="font-bold text-xl mb-2">Kofi Korsah</h3>
@@ -154,15 +158,9 @@ function App() {
 						<p>Sat: 9:00 AM - 5:00 PM</p>
 						<p>Sun: Closed</p>
 					</div> */}
-					<div className="justify-end">
+					<div id="contact" className="justify-end">
 						<h3 class="font-bold text-xl mb-2">Social Handles</h3>
 						<div class="flex justify-center items-center sm:justify-start gap-4 text-2xl">
-							<a href="#" aria-label="Facebook" class="hover:text-amber-400">
-								📘
-							</a>
-							<a href="#" aria-label="Instagram" class="hover:text-pink-500">
-								📸
-							</a>
 							<a
 								href="https://github.com/Kofi100"
 								target="_blank"
