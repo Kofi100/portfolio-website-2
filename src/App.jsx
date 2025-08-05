@@ -10,6 +10,7 @@ function App() {
 
 	return (
 		<div className="font-body text-lg">
+			<Analytics />
 			<header className="fixed w-full flex justify-between">
 				<p className="bg-gray-100 w-[25%] flex items-center justify-center">
 					KOFI
