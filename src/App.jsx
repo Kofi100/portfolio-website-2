@@ -141,6 +141,7 @@ function App() {
 								"A beautiful Ghanaian barbershop website made with HTML, CSS, and JavaScript."
 							}
 							imgSrc={"/images/Screenshot SharpKutz Barbershop 2.png"}
+							link={"https://kofi100.github.io/website-template-barbershop/"}
 						/>
 					</section>
 				</section>
