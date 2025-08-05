@@ -109,13 +109,6 @@ function App() {
 							githubLink={"https://github.com/Kofi100/recipe-finder"}
 						/>
 						<CardProjects
-							name="Barbershop Website"
-							description={
-								"A beautiful Ghanaian barbershop website made with HTML, CSS, and JavaScript."
-							}
-							imgSrc={"/images/Screenshot SharpKutz Barbershop 2.png"}
-						/>
-						<CardProjects
 							name="Trivia App Using OpenTriviaDB"
 							description={
 								"A trivia app with different topics made with HTML, CSS, and JavaScript and powered by OpenTriviaDB API."
@@ -141,6 +134,13 @@ function App() {
 							// imgSrc={"./public/images/desktop-RatingWebsite-screenshot.png"}
 							githubLink={"https://github.com/Kofi100/Hotel_Management_System2"}
 							link={"https://github.com/Kofi100/Hotel_Management_System2"}
+						/>
+						<CardProjects
+							name="Barbershop Website"
+							description={
+								"A beautiful Ghanaian barbershop website made with HTML, CSS, and JavaScript."
+							}
+							imgSrc={"/images/Screenshot SharpKutz Barbershop 2.png"}
 						/>
 					</section>
 				</section>
