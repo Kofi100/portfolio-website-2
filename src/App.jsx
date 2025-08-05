@@ -100,7 +100,7 @@ function App() {
 						<CardProjects
 							name="Recipe App Finder"
 							description={
-								"A project made with React to find recipes based on TheMealDB API and Spoonacular API."
+								"An app to find recipes made in React using two Apis: TheMealDB API and Spoonacular API."
 							}
 							imgSrc={
 								"/images/Screenshot_4-8-2025_20292_recipe-finder-kofi-k.vercel.app.jpeg"
@@ -109,9 +109,16 @@ function App() {
 							githubLink={"https://github.com/Kofi100/recipe-finder"}
 						/>
 						<CardProjects
+							name="Barbershop Website"
+							description={
+								"A beautiful Ghanaian barbershop website made with HTML, CSS, and JavaScript."
+							}
+							imgSrc={"/images/Screenshot SharpKutz Barbershop 2.png"}
+						/>
+						<CardProjects
 							name="Trivia App Using OpenTriviaDB"
 							description={
-								"A project made with HTML, CSS, and JavaScript to create a trivia app using the OpenTriviaDB API."
+								"A trivia app with different topics made with HTML, CSS, and JavaScript and powered by OpenTriviaDB API."
 							}
 							// imgSrc={"/public/images/desktop-RatingWebsite-screenshot.png"}
 							link={"https://kofi100.github.io/trivia-App-OpenTriviaDB/"}
@@ -135,13 +142,6 @@ function App() {
 							githubLink={"https://github.com/Kofi100/Hotel_Management_System2"}
 							link={"https://github.com/Kofi100/Hotel_Management_System2"}
 						/>
-						{/* <CardProjects
-							name="RecipeAppFinder"
-							description={
-								"A project made with React to find recipes based on TheMealDB API and Spoonacular API."
-							}
-							imgSrc={"/images/desktop-RatingWebsite-screenshot.png"}
-						/> */}
 					</section>
 				</section>
 			</main>
