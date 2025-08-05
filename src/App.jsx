@@ -4,7 +4,7 @@
 import "./App.css";
 import CardTechStack from "./components/CardTechStack";
 import CardProjects from "./components/CardProjects";
-
+import { Analytics } from "@vercel/analytics/next";
 function App() {
 	// const [count, setCount] = useState(0)
 
