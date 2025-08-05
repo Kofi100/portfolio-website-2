@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1024px"
+   height="1024px"
+   viewBox="0 0 1024 1024"
+   sodipodi:docname="abstract11.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   inkscape:export-filename="..\images\abstract11.png"
+   inkscape:export-xdpi="131.25"
+   inkscape:export-ydpi="131.25"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient6"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#1fbde5;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#2e88bc;stop-opacity:1;"
+         offset="0"
+         id="stop4" />
+      <stop
+         style="stop-color:#094486;stop-opacity:1;"
+         offset="1"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#267bb1;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#033375;stop-opacity:1;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="246.7457"
+       y1="503.95428"
+       x2="625.85791"
+       y2="516.68219"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4"
+       id="linearGradient5"
+       x1="540.37457"
+       y1="449.01569"
+       x2="634.34314"
+       y2="156.2735"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6"
+       id="linearGradient7"
+       x1="304"
+       y1="600"
+       x2="-21.999996"
+       y2="-72"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.5"
+     inkscape:cx="520"
+     inkscape:cy="515"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <g
+     id="g7"
+     inkscape:label="graphics"
+     transform="scale(1.6)">
+    <rect
+       style="display:inline;fill:url(#linearGradient7);fill-rule:evenodd;stroke-width:0;paint-order:fill markers stroke"
+       id="rect5"
+       width="640"
+       height="640"
+       x="0"
+       y="0"
+       inkscape:label="background" />
+    <path
+       style="display:inline;fill:url(#linearGradient5);fill-rule:evenodd;stroke-width:0;paint-order:fill markers stroke"
+       d="M 640,126.44531 V 511.37078 L 251.875,425.5625 C 277.96552,335.38974 415.205,369.41331 479.56739,291.68816 514.20968,249.85351 531.23698,161.74296 640,126.44531 Z"
+       id="path2"
+       sodipodi:nodetypes="cccsc"
+       inkscape:label="curve2" />
+    <path
+       style="display:inline;fill:url(#linearGradient3);fill-rule:evenodd;stroke-width:0;paint-order:fill markers stroke"
+       d="M 98.67969,640 C 240.93904,589.77083 198.83283,370.21381 337.875,362.3125 c 84.70769,-4.81366 104.22575,98.34179 229.96875,109.09375 26.2721,2.24646 52.35726,-8.69089 72.15625,-32.17188 V 640 Z"
+       id="path1"
+       sodipodi:nodetypes="cssccc"
+       inkscape:label="curve1" />
+  </g>
+</svg>
