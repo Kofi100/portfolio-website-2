@@ -104,10 +104,44 @@ function Home() {
 								"An app to find recipes made in React using two Apis: TheMealDB API and Spoonacular API."
 							}
 							imgSrc={
-								"/images/Screenshot_4-8-2025_20292_recipe-finder-kofi-k.vercel.app.jpeg"
+								"/images/Screenshot_4-8-2025_20292_recipe-finder-kofi-k.vercel.app.webp"
 							}
 							link={"https://recipe-finder-kofi-k.vercel.app/"}
 							githubLink={"https://github.com/Kofi100/recipe-finder"}
+						/>
+						<CardProjects
+							name="Blog Viewer App"
+							description={
+								"An web app I made using React,Node.js and Express to show and save blogs,written in markdown format"
+							}
+							githubLink={"https://github.com/Kofi100/blog-viewer-react"}
+							link={"https://github.com/Kofi100/blog-viewer-react"}
+						/>
+						<CardProjects
+							name="Hotel Management System"
+							description={
+								"A desktop application made with C# and MySQL to manage hotel bookings, customers, and rooms."
+							}
+							// imgSrc={"./public/images/desktop-RatingWebsite-screenshot.png"}
+							githubLink={"https://github.com/Kofi100/Hotel_Management_System2"}
+							link={"https://github.com/Kofi100/Hotel_Management_System2"}
+						/>
+						<CardProjects
+							name="Desktop Management Script Using Python "
+							description={
+								"A desktop management script made with Python to manage files and folders on your computer."
+							}
+							// imgSrc={"./public/images/desktop-RatingWebsite-screenshot.png"}
+							githubLink={"https://github.com/Kofi100/desktopOrganizerPython"}
+							link={"https://github.com/Kofi100/desktopOrganizerPython"}
+						/>
+						<CardProjects
+							name="Barbershop Website"
+							description={
+								"A beautiful Ghanaian barbershop website made with HTML, CSS, and JavaScript."
+							}
+							imgSrc={"/images/Screenshot SharpKutz Barbershop 2.webp"}
+							link={"https://kofi100.github.io/website-template-barbershop/"}
 						/>
 						<CardProjects
 							name="Trivia App Using OpenTriviaDB"
@@ -123,26 +157,9 @@ function Home() {
 							description={
 								"A webpage made with HTML and CSS to create a webpage for an omelette recipe."
 							}
-							imgSrc={"/images/screenshot_RecipePage_Desktop2.png"}
+							imgSrc={"/images/screenshot_RecipePage_Desktop2.webp"}
 							link={"https://kofi100.github.io/RecipePageHTML-Chall/"}
 							githubLink={"https://github.com/Kofi100/RecipePageHTML-Chall"}
-						/>
-						<CardProjects
-							name="Hotel Management System"
-							description={
-								"A desktop application made with C# and MySQL to manage hotel bookings, customers, and rooms."
-							}
-							// imgSrc={"./public/images/desktop-RatingWebsite-screenshot.png"}
-							githubLink={"https://github.com/Kofi100/Hotel_Management_System2"}
-							link={"https://github.com/Kofi100/Hotel_Management_System2"}
-						/>
-						<CardProjects
-							name="Barbershop Website"
-							description={
-								"A beautiful Ghanaian barbershop website made with HTML, CSS, and JavaScript."
-							}
-							imgSrc={"/images/Screenshot SharpKutz Barbershop 2.png"}
-							link={"https://kofi100.github.io/website-template-barbershop/"}
 						/>
 					</section>
 				</section>
