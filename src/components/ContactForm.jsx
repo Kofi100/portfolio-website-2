@@ -35,16 +35,16 @@ export default function ContactForm() {
 	};
 
 	return (
-		<form onSubmit={handleSubmit} className="flex flex-col gap-4 w-[75%]">
+		<form onSubmit={handleSubmit} className="flex w-full max-w-[760px] flex-col gap-4 text-left">
 			<input type="hidden" name="_honey" className="hidden" />
 			<input
 				type="hidden"
 				name="_next"
-				value="https://yourportfolio.com/thank-you"
+				value="https://kofi-k-portfolio-website-2.vercel.app/thank-you"
 			/>
 
 			{/* Name Field */}
-			<label htmlFor="name" className="text-left font-semibold">
+			<label htmlFor="name" className="font-semibold text-slate-800">
 				Name *
 			</label>
 			<input
@@ -55,14 +55,14 @@ export default function ContactForm() {
 				onChange={handleChange}
 				placeholder="Your full name"
 				required
-				className="p-2 border border-gray-300 rounded"
+				className="rounded-xl border border-slate-300 bg-white px-4 py-3 text-slate-900 shadow-sm transition focus:border-slate-500 focus:outline-none"
 			/>
 
 			{/* Phone Field */}
-			<label htmlFor="phone" className="text-left font-semibold">
+			<label htmlFor="phone" className="font-semibold text-slate-800">
 				Phone Number (Optional)
 			</label>
-			<p className="text-sm text-left text-gray-500 mb-2">
+			<p className="mb-1 text-sm text-slate-500">
 				Format: +[country code][number]
 			</p>
 			<input
@@ -73,11 +73,11 @@ export default function ContactForm() {
 				onChange={handleChange}
 				placeholder="+233 24 000 0000"
 				pattern="^\+[\d\s\-\(\)]{8,15}$"
-				className="p-2 border border-gray-300 rounded"
+				className="rounded-xl border border-slate-300 bg-white px-4 py-3 text-slate-900 shadow-sm transition focus:border-slate-500 focus:outline-none"
 			/>
 
 			{/* Email Field */}
-			<label htmlFor="email" className="text-left font-semibold">
+			<label htmlFor="email" className="font-semibold text-slate-800">
 				Email *
 			</label>
 			<input
@@ -88,11 +88,11 @@ export default function ContactForm() {
 				onChange={handleChange}
 				placeholder="Your email address"
 				required
-				className="p-2 border border-gray-300 rounded"
+				className="rounded-xl border border-slate-300 bg-white px-4 py-3 text-slate-900 shadow-sm transition focus:border-slate-500 focus:outline-none"
 			/>
 
 			{/* Message Field */}
-			<label htmlFor="message" className="text-left font-semibold">
+			<label htmlFor="message" className="font-semibold text-slate-800">
 				Your Message *
 			</label>
 			<textarea
@@ -103,14 +103,14 @@ export default function ContactForm() {
 				rows="5"
 				placeholder="Any questions, comments or requests?"
 				required
-				className="p-2 border border-gray-300 rounded"
+				className="rounded-xl border border-slate-300 bg-white px-4 py-3 text-slate-900 shadow-sm transition focus:border-slate-500 focus:outline-none"
 			></textarea>
 
 			{/* Submit Button */}
 			<button
 				type="submit"
 				disabled={isSubmitting}
-				className={`bg-blue-500 text-white font-bold py-2 rounded hover:bg-blue-300 transition ${
+				className={`mt-2 inline-flex items-center justify-center rounded-full bg-slate-900 px-6 py-3 font-bold text-white transition hover:bg-slate-700 ${
 					isSubmitting ? "opacity-50 cursor-not-allowed" : "cursor-pointer"
 				}`}
 			>
